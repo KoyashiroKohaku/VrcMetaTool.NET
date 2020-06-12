@@ -18,15 +18,7 @@ namespace KoyashiroKohaku.VrcMetaTool
         /// </summary>
         /// <param name="buffer">バイト配列</param>
         /// <returns>バイト配列がPNG画像のとき<see cref="true"/>, それ以外のとき<see cref="false"/></returns>
-        public static bool IsPng(ReadOnlySpan<byte> buffer)
-        {
-            if (buffer == null)
-            {
-                throw new ArgumentNullException(nameof(buffer));
-            }
-
-            return PngUtil.IsPng(buffer);
-        }
+        public static bool IsPng(ReadOnlySpan<byte> buffer) => PngUtil.IsPng(buffer);
 
         /// <summary>
         /// PNG画像のバイト配列からmeta情報を抽出します。
