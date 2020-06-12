@@ -4,7 +4,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VrcMetaTool.NET", "src\VrcMetaTool.NET\VrcMetaTool.NET.csproj", "{FD77E45E-550E-4C96-875D-5F52C8EEA12B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VrcMetaTool.NET.Reader", "sample\VrcMetaTool.NET.Reader\VrcMetaTool.NET.Reader.csproj", "{8CF3F948-9879-4D68-8324-B24BCD2C3D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VrcMetaTool.NET.Reader", "samples\VrcMetaTool.NET.Reader\VrcMetaTool.NET.Reader.csproj", "{8CF3F948-9879-4D68-8324-B24BCD2C3D29}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PngChunkUtil", "src\PngChunkUtil\src\PngChunkUtil\PngChunkUtil.csproj", "{0B285ABA-008E-432B-B5CD-BF8A2D6EE9DC}"
 EndProject
