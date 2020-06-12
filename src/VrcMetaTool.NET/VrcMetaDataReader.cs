@@ -70,6 +70,11 @@ namespace KoyashiroKohaku.VrcMetaTool
             return vrcMetaData;
         }
 
+        /// <summary>
+        /// PNG画像のバイト配列からmeta情報を抽出します。
+        /// </summary>
+        /// <param name="buffer">バイト配列</param>
+        /// <returns>meta情報</returns>
         public static bool TryRead(ReadOnlySpan<byte> buffer, out VrcMetaData? vrcMetaData)
         {
             if (buffer == null)
